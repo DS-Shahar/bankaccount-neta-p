@@ -1,0 +1,30 @@
+public class Grade {
+		private String apparatus;
+		private int score;
+
+
+		public Grade(String apparatus,int score) {
+			this.apparatus= apparatus;
+			this.score=score;
+			}
+
+		public String getApparatus() {
+			return apparatus;
+		}
+
+		public void setApparatus(String apparatus) {
+			this.apparatus = apparatus;
+		}
+
+		public int getScore() {
+			return score;
+		}
+
+		public void setScore(int score) {
+			this.score = score;
+		}
+		public Grade(Grade g1) {
+			 this.score=g1.score;
+			 this.apparatus=g1.apparatus;
+		}
+}
